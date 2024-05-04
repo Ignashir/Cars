@@ -7,15 +7,15 @@ services:
     volumes:
       - mysql-cars:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: db_1
-      MYSQL_USER: user
-      MYSQL_PASSWORD: user1234
-      MYSQL_TCP_PORT: 3307
+      MYSQL_ROOT_PASSWORD: ${ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DATABASE}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${PASSWORD}
+      MYSQL_TCP_PORT: ${TCP_PORT}
     ports:
-      - "3307:3307"
+      - "${TCP_PORT}:${TCP_PORT}"
     expose:
-      - "3307"
+      - "${TCP_PORT}"
     healthcheck:
       test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
     networks:

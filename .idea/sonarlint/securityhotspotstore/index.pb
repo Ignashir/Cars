@@ -10,3 +10,77 @@ B
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+:
+
+README.rmd,4/4/448e9b77b0bdc6cb1d1d90f3061c590457aae73c
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+O
+infrastructure/configuration.py,b/6/b6aad6d1f6d95e25b93fe955e5c3749368575398
+]
+-infrastructure/persistence/models/CarModel.py,1/c/1c5e4f88b51ce5bb39f92c48dc4e525bfc91142d
+`
+0infrastructure/persistence/models/ClientModel.py,c/5/c56bc7044cab8ad3aa98664596285c77f31af91a
+_
+/infrastructure/persistence/models/SalonModel.py,9/e/9ef1230f4206cd2c48c891036b1c8be4a65e2e43
+Q
+!infrastructure/persistence/dao.py,5/3/53ddb2bf694369a282b2cad502b264e74aab0bf6
+X
+(infrastructure/persistence/repository.py,8/8/88fe947b5412a8a9f216667c4ba889c66ede4c2a
+M
+domain/repositories_models.py,8/2/826931db31ce2ae9ea6fc52e06fc4bb7e948bfea
+B
+domain/entities.py,0/d/0d6524cc359174d1b3d928fdac9539d3ec87eb97
+G
+domain/value_objects.py,5/b/5b54b111f1f2c4202b03c52162ceff118263ebe7
+F
+domain/repositories.py,b/3/b36bb6ce9f6608cc0f0b95d5d05a49cab3c2c13f
+X
+(infrastructure/persistence/connection.py,e/f/ef7b06cc6874e4628fe6e95d219e41fd548f67d9
+R
+"infrastructure/persistence/DAOs.py,6/2/62b1c6ff05e3444ef01ee63042d807abd1f8e8d0
+Z
+*infrastructure/persistence/DAOs/car_dao.py,6/a/6a88fd965a363ed3a3460bf23657232bc2a66450
+^
+.infrastructure/persistence/models/car_model.py,8/5/852e5ef41a10265203504f6e52002f56e57151db
+V
+&infrastructure/persistence/DAOs/dao.py,f/e/fe5a8365e10c39004f632485eb11a7cfb0e77fd4
+a
+1infrastructure/persistence/models/client_model.py,e/2/e29cf05a22d32c28e77439fe8727ee1b1a9e87e2
+`
+0infrastructure/persistence/models/salon_model.py,c/4/c48b70adfb1eb8b799afa40344a7d66673524370
+X
+(infrastructure/persistence/exceptions.py,d/0/d0b50e6f2439c22941c5fb4e736d3c2c5a46a745
+]
+-infrastructure/persistence/DAOs/client_dao.py,3/a/3ae15fb5ecd57403ebaa1590debdc624810e5021
+\
+,infrastructure/persistence/DAOs/salon_dao.py,f/7/f75c0613d70bf962a5cd59c9bed125d844d08eec
+O
+infrastructure/logger/logger.py,9/d/9d14068b218c765afca39540027b7315dc29216c
+U
+%infrastructure/logger/basic_logger.py,d/e/dec9894a2279b15522cc8cf2ec26030dda90e188
+U
+%infrastructure/logger/error_logger.py,4/7/476ad604f483a28e2e71816d8fb56a652c23149a
+g
+7tests/test_database/test_database_connection_builder.py,6/3/63040bc130b4ccf21eda07da5fdc43d81f3d6a44
+T
+$tests/test_database/test_crud_dao.py,b/f/bf612c1db270546405587f90da7c66293b93deb2
+?
+domain/enums.py,1/c/1cd2035303d54b83111a5afa02a0cb9cbe324b0e
+P
+ domain/entities/client_entity.py,1/5/15037f04c810738af2e210fd618048dc6075170e
+M
+domain/entities/car_entity.py,9/9/99fc43df3db5ef5acbd3c3cc8cd3ca1072be6185
+O
+domain/entities/salon_entity.py,0/8/0852b5b67059514b8db0fa2be7dda903df3ce3f3
+O
+domain/repositories/car_repo.py,3/7/37279609792dc3625b7430b2b0187e66794fd62d
+R
+"domain/repositories/client_repo.py,8/5/851b64db1614ced259b71c555eb9b8145e4fb7fe
+Q
+!domain/repositories/salon_repo.py,3/8/3841091d368a07fbd1c445372dde87048423f801
