@@ -1,1 +1,4 @@
+.env
 Plan
+error_logs.log
+info_logs.log

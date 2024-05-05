@@ -84,3 +84,7 @@ R
 "domain/repositories/client_repo.py,8/5/851b64db1614ced259b71c555eb9b8145e4fb7fe
 Q
 !domain/repositories/salon_repo.py,3/8/3841091d368a07fbd1c445372dde87048423f801
+9
+	.env.test,c/5/c589161bbc055e8f5fc7ed13aae8551821ece4b6
+>
+error_logs.log,3/0/3048e24f4e96f6fe2696889a5d350a3eb66e4ca0
